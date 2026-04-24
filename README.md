@@ -2,7 +2,7 @@
 
 Outil en ligne de commande pour tester la robustesse d'un mot de passe.
 
-Projet réalisé dans le cadre de mes études en BUT Réseaux & Télécommunications (parcours Cybersécurité) à l'Université Sorbonne Paris Nord.
+Petit projet perso pour mieux comprendre ce qui rend un mot de passe solide (ou pas).
 
 ## Fonctionnalités
 
@@ -26,9 +26,7 @@ Ensuite il suffit de taper un mot de passe pour l'analyser. Tape `quitter` pour 
 ```
 Mot de passe à tester : azerty
 
-==================================================
-  Analyse : 'azerty'
-==================================================
+--- Analyse : 'azerty' ---
 
 [!] ALERTE : Ce mot de passe est dans la liste des plus utilisés !
     Il serait cracké en moins d'une seconde par dictionnaire.
@@ -45,7 +43,7 @@ Mot de passe à tester : azerty
   • Ajoute des chiffres (ex: 1, 42, 99...)
   • Ajoute des caractères spéciaux (ex: @, #, !, $...)
   • Ce mot de passe est trop courant — change-le complètement
-==================================================
+---
 ```
 
 ## Prérequis

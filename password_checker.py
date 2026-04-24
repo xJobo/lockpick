@@ -131,9 +131,7 @@ def suggest_improvements(password, complexity_details):
     return suggestions
 
 def analyze_password(password):
-    print("\n" + "=" * 50)
-    print(f"  Analyse : '{password}'")
-    print("=" * 50)
+    print(f"\n--- Analyse : '{password}' ---")
 
     # verif blacklist
     if password.lower() in [p.lower() for p in COMMON_PASSWORDS]:
@@ -177,10 +175,10 @@ def analyze_password(password):
     else:
         print("\n[Conseils]     Aucun — excellent mot de passe !")
 
-    print("=" * 50 + "\n")
+    print("---\n")
 
 def main():
-    print("\n=== Lockpick — testeur de robustesse ===")
+    print("\nLockpick — testeur de robustesse")
     print("Tape 'quitter' pour arrêter.\n")
 
     while True:
