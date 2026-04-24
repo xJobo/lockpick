@@ -16,7 +16,7 @@ Petit projet perso pour mieux comprendre ce qui rend un mot de passe solide (ou 
 ## Utilisation
 
 ```bash
-python password_checker.py
+python lockpick.py
 ```
 
 Ensuite il suffit de taper un mot de passe pour l'analyser. Tape `quitter` pour arrêter.
